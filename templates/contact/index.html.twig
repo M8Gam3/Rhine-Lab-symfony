@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{parent()}}|Contact{% endblock %}
+
+{% block page_title %}Contact{% endblock %}
+
+{% block body %}
+<img class="contact-banner" src="{{ asset('images/directory2.png') }}" />
+
+<div class="contact-container">
+  <div class="contact">
+    <div class="contact-content-1">
+      <div class="contact-content-1-frame">
+        <div class="contact-content-1-item">
+          <div class="contact-content-1-item-desc">
+            <div class="contact-content-1-item-desc-text">Name</div>
+          </div>
+          <div class="contact-content-1-item-input">
+            <div class="contact-content-1-item-input-text">Lorem Ispum...|</div>
+          </div>
+        </div>
+        <div class="contact-content-1-item">
+          <div class="contact-content-1-item-desc">
+            <div class="contact-content-1-item-desc-text">E-mail</div>
+          </div>
+          <div class="contact-content-1-item-input">
+            <div class="contact-content-1-item-input-text">Lorem Ispum...|</div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-content-1-frame2">
+        <div class="contact-content-1-item">
+          <div class="contact-content-1-item-desc">
+            <div class="contact-content-1-item-desc-text">Message</div>
+          </div>
+          <div class="contact-content-1-item-input">
+            <div class="contact-content-1-item-input-text">Lorem Ispum...|</div>
+          </div>
+        </div>
+        <div class="contact-content-1-item2">
+          <div class="contact-content-1-item-button">
+            <div class="contact-content-1-item-button-text">Envoyer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
